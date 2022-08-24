@@ -1,49 +1,58 @@
 body {
-    background-color: #4e54c8;
+    background-color: #292c33;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .brotherhood {
     margin-top: 80px;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
+    background-color: #89d8e3;
+    width: 315px;
+    padding:60px;
+    text-align:center;
+    margin-left: calc((100vw - 315px - 60px)/2);
+    border-radius: 20px;
+    box-shadow: 5px 10px;
+    position: relative;
+    padding-right: 120px;
+    padding-left: 120px;
+
 
 }
 
 #hello {
     color: rgb(15, 15, 81);
     font-size: 30px;
+
 }
 
-#gta {
-    margin-right: 200px;
-    width: 100px;
-    margin-top: 160px;
-}
+
 
 .vietnam {
     background-color: rgb(59, 105, 105);
     height: 60px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    
 }
 
 #name {
     width: 300px;
-    height: 40px;
+    height: 30px;
+    
 }
 
+.inpt{margin-top: 10px;}
+
 #number {
+    
     width: 300px;
-    height: 40px;
+    height: 30px;
 }
 
 #email {
     width: 300px;
-    height: 40px;
+    height: 30px;
 }
 
 .rio {
@@ -52,5 +61,66 @@ body {
 }
 
 .tordo {
-    margin-top: 80px;
+    margin-top: 40px;
+}
+.card{
+    background-color: whitesmoke;
+    width: 180px;
+    height: 180px;
+margin: 10px;
+padding: 5px;
+border-radius: 10px;
+text-align: center;
+}
+.cards{
+align-items: center;
+    display: flex;
+   justify-content: flex-end;
+   flex-wrap: wrap;
+    width: 450px;
+    position: absolute;
+    margin-bottom: 200px;
+    margin-top: 120px;
+    margin-left: 220px;
+}
+main{
+    display: flex;
+    margin-left: 50px;
+
+}
+input {
+    border-radius:40px;
+outline: none;
+border:none
+}
+.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    margin-top: 10px;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#frank {
+    width: 20px
+}
+
+footer {
+    color:antiquewhite;
+    margin-top: 60px;
+    text-align: center;
 }

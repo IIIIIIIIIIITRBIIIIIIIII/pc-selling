@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+    margin-top: 300px;
+    background-color: rgb(137,216,227);
+    width: 500px;
+    margin-left: 500px;
+    height: 70px;
+    border-radius: 20px;
+}
+
+body {
+    background-color: hsl(222,11%,18%);
+}
