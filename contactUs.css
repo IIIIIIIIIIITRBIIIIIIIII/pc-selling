@@ -1,0 +1,56 @@
+body {
+    background-color: #4e54c8;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.brotherhood {
+    margin-top: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#hello {
+    color: rgb(15, 15, 81);
+    font-size: 30px;
+}
+
+#gta {
+    margin-right: 200px;
+    width: 100px;
+    margin-top: 160px;
+}
+
+.vietnam {
+    background-color: rgb(59, 105, 105);
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#name {
+    width: 300px;
+    height: 40px;
+}
+
+#number {
+    width: 300px;
+    height: 40px;
+}
+
+#email {
+    width: 300px;
+    height: 40px;
+}
+
+.rio {
+
+    margin-top: 40px;
+}
+
+.tordo {
+    margin-top: 80px;
+}
