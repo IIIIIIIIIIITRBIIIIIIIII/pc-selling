@@ -1,20 +1,45 @@
 #rayen{
-    width: 80px;
-    margin-bottom: 100px;
- 
+width: 160px; 
+position: absolute;
+margin-bottom: 430px;
+
  }
    #omo{
-     margin-top: 5cm;
+     margin: 80px;
+     text-align: center;
+     margin-top: 100px; 
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 50px;
    }
 
    #ahmed {
-    width: 80px;
+    width: 160px; 
+    position: absolute;
+    margin-bottom: 430px;
    }
 
    .hmed {
+    flex-direction: column;
+    width: 300px;
+    background-color: #89d8e3;
+    height: 400px;
+    position: relative;
+    align-items: center;
     display: flex;
-    flex-direction: row-reverse;
-    margin-right: 379px;
+    justify-content: center;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 15px;
+    box-shadow: -1px 0px 18px 0px rgba(0,0,0,0.42);
+-webkit-box-shadow: -1px 0px 18px 0px rgba(0,0,0,0.42);
+-moz-box-shadow: -1px 0px 18px 0px rgba(0,0,0,0.42);
+}
+
+
+   #name{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 15px;
    }
 
 p {
@@ -22,21 +47,42 @@ p {
 }
 
 .imenn {
+    flex-direction: column;
+    width: 300px;
+    background-color: #89d8e3;
+    height: 400px;
+    position: relative;
+    align-items: center;
     display: flex;
-    flex-direction: row-reverse;
-    margin-right: 400px;
+    justify-content: center;
+    padding: 20px;
+    margin:  50px;
+    border-radius: 15px;
+    box-shadow: -1px 0px 18px 0px rgba(0,0,0,0.42);
+    -webkit-box-shadow: -1px 0px 18px 0px rgba(0,0,0,0.42);
+    -moz-box-shadow: -1px 0px 18px 0px rgba(0,0,0,0.42);
+    
 }
 
 #minecraft {
     margin-left: 10px;
+    line-height: 35px;
+
 }
 
 .welcome {
-    margin-top: 50px;
+justify-content: center;
+width: calc(100vw - 200px - 600px);
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color:rgba(126, 119, 119, 0.125);
+border-radius: 20px;
 }
 
+
 main {
-    margin-bottom: 400px;
+    display: flex;
 }
 
 header{
@@ -70,3 +116,119 @@ nav {
 #cs:hover{
     color:aquamarine
 }
+
+
+
+
+
+
+
+.gym4{
+    position: absolute;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    /* background-color: aquamarine; */
+    left: 400px;
+    top:10px;
+    font-size: 150px;   
+}
+
+.words-body{
+    font-family: "Archivo Black", sans-serif;
+    background: rgba(244, 208, 63, 0);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 1250px;
+    top: -275px;
+}
+/* yes you can */
+.words {
+    color: #fcfcfcb5;
+    font-size: 0px;
+    line-height: 1.5;
+  }
+  
+  .words span {
+    font-size: 5rem;
+    display: inline-block;
+    animation: move 6s ease-in-out infinite;
+    font-size: 20px;
+
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translate(-30%, 0);
+    }
+    50% {
+      text-shadow: 0 25px 50px rgba(0, 0, 0, 0.75);
+    }
+    100% {
+      transform: translate(30%, 0);
+    }
+  }
+  
+  .words span:nth-child(2) {
+    animation-delay: 0.5s;
+  }
+  
+  .words span:nth-child(3) {
+    animation-delay: 1s;
+  }
+  
+  .words span:nth-child(4) {
+    animation-delay: 1.5s;
+  }
+  
+  .words span:nth-child(5) {
+    animation-delay: 2s;
+  }
+  
+  .words span:nth-child(6) {
+    animation-delay: 2.5s;
+  }
+  
+  .words span:nth-child(7) {
+    animation-delay: 3s;
+  }
+
+  /* welcom */
+  
+  /* search */
+  .search-container{
+    padding: 9px 9px;
+    margin-top: 5px;
+    margin-bottom: 90px;
+    left: 920px;
+    font-size:17px;
+    border-radius: 20px;  
+    cursor:wait;
+    display: flex;
+    position: absolute;
+    z-index: 999999999999999999999999999999999999;
+width: 240px;
+height: 50px;
+}
+
+.full{
+  position: fixed;
+  z-index: -1;
+  top:0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+
+
+
+
+
+
