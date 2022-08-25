@@ -1,0 +1,72 @@
+#rayen{
+    width: 80px;
+    margin-bottom: 100px;
+ 
+ }
+   #omo{
+     margin-top: 5cm;
+   }
+
+   #ahmed {
+    width: 80px;
+   }
+
+   .hmed {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 379px;
+   }
+
+p {
+    font-size: 20px;
+}
+
+.imenn {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 400px;
+}
+
+#minecraft {
+    margin-left: 10px;
+}
+
+.welcome {
+    margin-top: 50px;
+}
+
+main {
+    margin-bottom: 400px;
+}
+
+header{
+    background-color: rgb(134, 134, 210);
+    height: 80px;
+    border-radius: 20px;    
+}
+
+nav {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#git {
+    margin-left: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#cs {
+    margin-right: 100px;
+    font-size: 20px;
+    margin-top:20px;
+}
+
+#git:hover{
+    color: aquamarine;
+}
+
+#cs:hover{
+    color:aquamarine
+}
